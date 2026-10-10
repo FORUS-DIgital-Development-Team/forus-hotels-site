@@ -39,4 +39,3 @@
   document.addEventListener('visibilitychange', start);
   start();
 })();
-

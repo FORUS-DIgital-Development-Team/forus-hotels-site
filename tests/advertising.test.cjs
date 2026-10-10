@@ -44,4 +44,3 @@ test('SDK failure leaves the optional slot empty without retrying on every focus
   const f = fixture(); f.scripts[0].onerror(); await flush();
   f.listeners.visibilitychange(); await flush(); assert.equal(f.scripts.length, 1); assert.equal(f.state().mounts, 0);
 });
-

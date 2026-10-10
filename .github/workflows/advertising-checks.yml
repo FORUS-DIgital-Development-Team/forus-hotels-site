@@ -20,4 +20,3 @@ jobs:
       - run: node --check advertising.js
       - run: node --check forus-ads.js
       - run: node --test tests/advertising.test.cjs
-
